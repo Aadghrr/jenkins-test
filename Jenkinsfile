@@ -1,6 +1,7 @@
 pipeline{
   stages{
     stage('main'){
-      sh 'echo hello'
+      sh 'mvn clean package'
   }
+}
 }
